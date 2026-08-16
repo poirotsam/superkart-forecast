@@ -11,5 +11,5 @@ COPY superkart_frontend.py .
 # Streamlit default port
 EXPOSE 8501
  
-CMD ["streamlit", "run", "superkart_frontend.py",
+CMD ["streamlit", "run", "superkart_frontend.py", \
      "--server.port=8501", "--server.address=0.0.0.0"]
